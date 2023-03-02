@@ -3,7 +3,7 @@
   ![image](https://github.com/chlizhu/RSML-GCN/blob/main/images/fig.jpg)
 # Description
   "data" contains the benchmark dataset used in RSML-GCN.  
-  "data_helpers.py" is used to processe training data and test data.  
+  "data_helpers.py" is used to process training data and test data.  
   "SML_GCN.py" is the function of symmetric metric learning algorithm.  
   "gcn_model.py" is the function of GCN algorithm.
 # Environment Requirement
