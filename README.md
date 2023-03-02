@@ -6,4 +6,4 @@
   * scikit-learn
   * keras
 # Usage
-bash train.py
+run train.py
