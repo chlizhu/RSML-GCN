@@ -23,9 +23,7 @@ class model(object):
 
         with tf.name_scope(name="B"):
             B = tf.Variable(np.array([1.0] * self.user_num), dtype=tf.float32, trainable=True)
-
             B1 = tf.Variable(np.array([1.0] * self.prd_num), dtype=tf.float32, trainable=True)
-
         #model
         bias = tf.nn.embedding_lookup(B, self.userid)
         user_embedding = tf.nn.embedding_lookup(U, self.userid)
