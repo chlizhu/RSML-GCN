@@ -5,8 +5,5 @@
   * tensorflow == 1.15
   * scikit-learn
   * keras
-# Datasets
-  * Cdataset https://github.com/storyandwine/LAGCN
-  * Fdataset https://github.com/BioinformaticsCSU/BNNR
 # Usage
 bash train.py
