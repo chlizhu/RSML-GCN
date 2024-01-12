@@ -13,4 +13,4 @@
   * scipy == 1.7.3
   * scikit-learn == 1.0.1
 # Usage
-run train.py
+  Please run train.py to reproduce the 10-fold cross-validation results reported in our paper. The users can also produce their cross-validation results by setting drug_sim, dis_sim and df in train.py to the user-provided data.
